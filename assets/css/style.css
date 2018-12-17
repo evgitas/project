@@ -1,0 +1,86 @@
+
+.settempheight200{
+    height: 200px;
+}
+
+
+.container-1{
+    width: 1000px;
+    margin: auto;
+       
+}
+
+.container-1 div{
+    border: 1px red solid;
+    
+}
+
+.flex-on{
+    display: flex;
+    justify-content: space-between;
+}
+.main_image{
+     background-image: url("../images/Header_big_01.jpg"); 
+     background-color: #aacccc;
+     width: 100%;
+
+     background-position: center;
+}
+
+.box-1{
+    height: 600px;
+    
+}
+
+.box-1-1{
+    height: 10%;
+    
+}
+.box-1-2{
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.box-1-2-1{
+    display: flex;
+   /*justify-content: space-between; */
+    
+    margin: auto;
+    width: 400px;
+/*  display: flex;
+    justify-content: center; */
+    
+}
+
+.flex_column{
+    display: flex;
+    flex-flow:column;
+}
+
+/*.logo_image{
+     background-image: url("../images/logo_03.png"); 
+
+}*/
+
+/*ul {
+    list-style: none;
+}*/
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content:center;
+}
+
+.nav-width{
+    width: 400px;
+}
+
+
+.features_block{
+    border: 1px red solid;
+    width: 1000px;
+    margin: auto;
+}
